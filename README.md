@@ -1,7 +1,8 @@
 # Sublime Snippets
 Portable snippets across the globe. Phew
+Copy and paste these into your _AppData\Roaming\Sublime Text 2\Packages\User_ folder for Sublime Text 2.
 
-## Copy and paste these into your _AppData\Roaming\Sublime Text 2\Packages\User_ folder for Sublime Text 2.
+--------------------------------------------
 
 ### HTML/CSS Snippets _triggeredby_
 - clearfix _clearfix_
