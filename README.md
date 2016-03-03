@@ -1,12 +1,12 @@
 # sublime-snippets
 Portable snippets across the globe. Phew
 
-## HTML/CSS Snippets _<triggeredby>_
-- clearfix <clearfix>
-- shadow for text/box <shadow>
-- border radius <radius>
-- link to jquery cdn <jquery>
-- doctype html minimal boilerplate <html5>
+## HTML/CSS Snippets _triggeredby_
+- clearfix _clearfix_
+- shadow for text/box _shadow_
+- border radius _radius_
+- link to jquery cdn _jquery_
+- doctype html minimal boilerplate _html5_
 
-## Javascript _<triggeredby>_
-- console.log <log>
+## Javascript _triggeredby_
+- console.log _log_
