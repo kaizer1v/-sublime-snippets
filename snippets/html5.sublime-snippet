@@ -4,10 +4,10 @@
 <html>
 <head>
 	<title>${1:title}</title>
+</head>
 <body>
 	${2:body}
 </body>
-</head>
 </html>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
