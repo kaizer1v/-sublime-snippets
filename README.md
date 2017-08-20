@@ -1,8 +1,18 @@
 # Sublime Snippets
 Portable snippets across the globe. Phew
-Copy and paste these into your _AppData\Roaming\Sublime Text 2\Packages\User_ folder for Sublime Text 2.
+Copy and paste these into the following locations
 
-This also contains all the settings necessary for (personally) sublime editor
+### For Windows
+```
+AppData\Roaming\Sublime Text 3\Packages\User
+```
+
+### For Linux
+```
+~/.config/sublime-text-3/Packages/User
+```
+
+This also contains all the settings necessary for sublime editor
 
 --------------------------------------------
 
