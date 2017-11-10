@@ -1,12 +1,14 @@
 <snippet>
 	<content><![CDATA[
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-	<title>${1:title}</title>
+  <title>${1:title}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-	${2:body}
+  ${2:body}
 </body>
 </html>
 ]]></content>
