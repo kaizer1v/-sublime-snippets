@@ -1,3 +1,3 @@
 # DOTFILES
 
-sample settings
+sample settings dot files
