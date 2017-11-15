@@ -1,3 +1,6 @@
 # DOTFILES
 
-sample settings dot files
+Sample settings and dot files.
+
+[Reference Blog Post](http://dotfiles.github.io/)
+
