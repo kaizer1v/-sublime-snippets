@@ -1,0 +1,23 @@
+{
+  "name": "Sample Project",
+  "authors": [
+    "Vivek Shrinivasan <kaizer1v@gmail.com>"
+  ],
+  "description": "this project is about ...",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "2.1.3",
+    "d3": "4.1.1"
+  }
+}

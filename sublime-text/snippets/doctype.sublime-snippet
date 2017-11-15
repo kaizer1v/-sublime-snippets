@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<!doctype html>
+<html>
+<head>
+  <title>$0</title>
+</head>
+<body>
+  <h1>$0</h1>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript"></script>
+</body>
+</html>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>doctype</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

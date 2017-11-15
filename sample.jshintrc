@@ -1,0 +1,9 @@
+{
+    "asi": true,
+    "boss": true,
+    "immed": true,
+    "indent": 2,
+    "latedef": true,
+    "trailing": true,
+    "unused": true
+}
