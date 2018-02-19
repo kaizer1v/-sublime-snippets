@@ -2,5 +2,6 @@
 
 Sample settings and dot files.
 
-[Reference Blog Post](http://dotfiles.github.io/)
-
+## Links
+- [Reference Blog Post](http://dotfiles.github.io/)
+- [Editor Config](http://editorconfig.org/)
