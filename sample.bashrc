@@ -129,6 +129,9 @@ alias setups="cd /media/vivek/Everything/software_setups"
 alias dwnld="cd ~/Downloads/"
 alias serve="python -m SimpleHTTPServer $1"
 
+# always append file/folder to existing sublime window
+alias subl="subl -a"
+
 # make sure to run `source ~/.bashrc` right after editing this file
 # start terminal from default location
 cd /media/vivek/Everything/
