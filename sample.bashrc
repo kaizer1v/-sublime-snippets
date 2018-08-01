@@ -120,10 +120,7 @@ fi
 # added by Anaconda2 4.4.0 installer
 export PATH="/home/vivek/anaconda2/bin:$PATH"
 
-# my aliases
-alias books="cd /media/vivek/Everything/books_for_ref"
-alias gramener="cd /media/vivek/Everything/gramener"
-alias prj="cd /media/vivek/Everything/personal_projects"
-alias pix="cd /media/vivek/Everything/pictures"
-alias setups="cd /media/vivek/Everything/software_setups"
 # make sure to run `source ~/.bashrc` right after editing this file
+# import from ~/.aliases
+. ~/.aliases
+
