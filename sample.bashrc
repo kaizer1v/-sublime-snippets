@@ -126,9 +126,4 @@ alias gramener="cd /media/vivek/Everything/gramener"
 alias prj="cd /media/vivek/Everything/personal_projects"
 alias pix="cd /media/vivek/Everything/pictures"
 alias setups="cd /media/vivek/Everything/software_setups"
-alias dwnld="cd ~/Downloads/"
-alias serve="python -m SimpleHTTPServer $1"
-
 # make sure to run `source ~/.bashrc` right after editing this file
-# start terminal from default location
-cd /media/vivek/Everything/
