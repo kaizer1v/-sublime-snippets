@@ -1,6 +1,7 @@
 # Sublime Snippets
 Portable snippets across the globe. Phew
-Copy and paste these into the following locations
+
+To copy the settings into the appropriate folder location for **sublime text 3** run the following command
 
 ### For Windows
 ```
