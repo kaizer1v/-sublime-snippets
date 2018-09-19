@@ -50,7 +50,7 @@ and so on.
 - you can check [this repo](https://github.com/praveenpuglia/github_markdown_snippets) to see all the shortcuts provided
 
 ## Settings
-Contains user settings as JSON object
+Contains user settings as JSON object, present in the `sublime-text` directory of this repo
 
 ## Fonts
 You can run the following command to install "Monaco" Font on your machine to be used by sublime text.
