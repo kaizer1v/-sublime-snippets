@@ -1,7 +1,20 @@
 # Sublime Snippets
 Portable snippets across the globe. Phew
 
-To copy the settings into the appropriate folder location for **sublime text 3** run the following command
+To copy the settings into the appropriate folder location for **sublime text 3** run the following commands
+
+First, clone this repo
+
+`git clone https://github.com/kaizer1v/dotfiles.git`
+
+and then copy the files to the path based no your operating system, for example, in case 
+of linux,
+
+```
+cp -rv ./dotfiles/sublime-text/* ~/.config/sublime-text-3/Packages/User/ 
+```
+
+Below are the destination folders for windows and linux os.
 
 ### For Windows
 ```
