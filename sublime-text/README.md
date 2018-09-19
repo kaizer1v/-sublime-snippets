@@ -46,6 +46,8 @@ and so on.
 ### Javascript
 - console.log (_log_)
 
+### Markdown
+- you can check [this repo](https://github.com/praveenpuglia/github_markdown_snippets) to see all the shortcuts provided
 
 ## Settings
 Contains user settings as JSON object
