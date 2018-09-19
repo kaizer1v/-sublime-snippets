@@ -123,4 +123,3 @@ export PATH="/home/vivek/anaconda2/bin:$PATH"
 # make sure to run `source ~/.bashrc` right after editing this file
 # import from ~/.aliases
 . ~/.aliases
-
