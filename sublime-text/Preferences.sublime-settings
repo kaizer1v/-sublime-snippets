@@ -15,5 +15,4 @@
   "highlight_modified_tabs": true,
   "open_files_in_new_window": false,
   "create_window_at_startup": false,
-  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "bower_components", "node_modules", "__pycache__"]
-}
+  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "bower_components", "node_modules", "__pycache__", ".sass_cache", ".cache", "$RECYCLE.BIN"]
