@@ -72,3 +72,4 @@ _make sure you have curl install, and if you still get an error, try with ```sud
 - [HTML-CSS-JS Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
 - [AutoPEP8](https://github.com/wistful/SublimeAutoPEP8)
 - [FuzzyFilePath](https://github.com/sagold/FuzzyFilePath)
+

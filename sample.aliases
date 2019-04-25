@@ -5,9 +5,11 @@
 #   . ~/.aliases
 # run `source ~/.aliases` to reload
 
-alias gramener='cd /media/vivek/Everything/gramener'
-alias prj='cd /media/vivek/Everything/personal_projects'
+# for frequent folder jumping use autojump https://github.com/wting/autojump
 
 # sublime text 3
 alias subl-snippets='cd ~/.config/sublime-text-3/Packages/User/snippets'
 alias subl-settings='cd ~/.config/sublime-text-3/Packages/User'
+
+# utilities
+alias serve='python -m http.server 8998'
