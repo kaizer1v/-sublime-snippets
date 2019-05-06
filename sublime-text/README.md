@@ -73,3 +73,4 @@ _make sure you have curl install, and if you still get an error, try with ```sud
 - [AutoPEP8](https://github.com/wistful/SublimeAutoPEP8)
 - [FuzzyFilePath](https://github.com/sagold/FuzzyFilePath)
 - [Syntax Highlighting for SASS](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass)
+- [Github Markdown Snippets](https://github.com/praveenpuglia/github_markdown_snippets)
