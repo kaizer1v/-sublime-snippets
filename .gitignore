@@ -20,7 +20,6 @@ logs/
 
 # Cache folders created by Gramex
 .cache/
-.gramex-compiled/
 
 # Old vis.py used to produce xhtml output. Ignore these
 *.xhtml
@@ -49,6 +48,9 @@ logs/
 ~$*
 *~
 *.bak*
+
+# Lock files
+*.lock
 
 # Sublime-text workspaces, etc
 *.sublime-*
