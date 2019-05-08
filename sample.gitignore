@@ -49,6 +49,9 @@ logs/
 *~
 *.bak*
 
+# Lock Files
+*.lock
+
 # Sublime-text workspaces, etc
 *.sublime-*
 
