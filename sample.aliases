@@ -5,9 +5,35 @@
 #   . ~/.aliases
 # run `source ~/.aliases` to reload
 
-alias gramener='cd /media/vivek/Everything/gramener'
-alias prj='cd /media/vivek/Everything/personal_projects'
 
 # sublime text 3
 alias subl-snippets='cd ~/.config/sublime-text-3/Packages/User/snippets'
 alias subl-settings='cd ~/.config/sublime-text-3/Packages/User'
+
+# applications
+alias balsamiq='wine /opt/balsamiq/balsamiq.exe'
+
+# personal blog
+blog-new() {
+  # create new file in the following path
+  local POSTS='/media/vivek/Everything1/personal_projects/kaizer1v.github.io/all_collections/_posts/'
+
+  d=`date +%F`
+  touch `$POSTS$d-$1.md`
+
+  subl -a $d-$1.md
+}
+
+blog-draft() {
+  # create new file in the following path
+  local DRAFTS='/media/vivek/Everything1/personal_projects/kaizer1v.github.io/_drafts/'
+
+  touch `$DRAFTS$1.md`
+
+  subl -a $1.md
+}
+
+blog-start() {
+  cd /media/vivek/Everything1/personal_projects/kaizer1v.github.io/
+  bundle exec jekyll serve
+}
