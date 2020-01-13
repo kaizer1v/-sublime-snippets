@@ -5,6 +5,7 @@
 #   . ~/.aliases
 # run `source ~/.aliases` to reload
 
+# for frequent folder jumping use autojump https://github.com/wting/autojump
 
 # sublime text 3
 alias subl-snippets='cd ~/.config/sublime-text-3/Packages/User/snippets'
@@ -13,7 +14,10 @@ alias subl-settings='cd ~/.config/sublime-text-3/Packages/User'
 # applications
 alias balsamiq='wine /opt/balsamiq/balsamiq.exe'
 
-# personal blog
+# utilities
+alias serve='python -m http.server 8998'
+
+# personal blog related commands
 blog-new() {
   # create new file in the following path
   local POSTS='/media/vivek/Everything1/personal_projects/kaizer1v.github.io/all_collections/_posts/'
