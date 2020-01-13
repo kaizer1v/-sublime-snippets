@@ -47,12 +47,12 @@ esac
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
+    # We have color support; assume it's compliant with Ecma-48
+    # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+    # a case would tend to support setf rather than setaf.)
+    color_prompt=yes
     else
-	color_prompt=
+    color_prompt=
     fi
 fi
 
@@ -117,8 +117,20 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# added by Anaconda2 4.4.0 installer
-export PATH="/home/vivek/anaconda2/bin:$PATH"
+# this is installed for running exercises for https://exercism.io/
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+  source ~/.config/exercism/exercism_completion.bash
+fi
+
+# added by Anaconda3 installer
+export PATH="/home/vivek/anaconda3/bin:$PATH"
+
+# autojump configurations
+[[ -s /home/vivek/.autojump/etc/profile.d/autojump.sh ]] && source /home/vivek/.autojump/etc/profile.d/autojump.sh
+
+# Install Ruby Gems to ~/gems
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
 
 # make sure to run `source ~/.bashrc` right after editing this file
 # import from ~/.aliases
