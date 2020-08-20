@@ -28,7 +28,7 @@ AppData\Roaming\Sublime Text 3\Packages\User
 
 ### For Mac
 ```
-/Applications/Sublime\ Text.app/Contents/MacOS/Packages/
+~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 ```
 
 This also contains all the settings necessary for sublime editor
