@@ -7,28 +7,22 @@ First, clone this repo
 
 `git clone https://github.com/kaizer1v/dotfiles.git`
 
-and then copy the files to the path based no your operating system, for example, in case 
-of linux,
+and then copy the files to the path based no your operating system, for example, based on our OS
 
-```
-cp -rv ./dotfiles/sublime-text/* ~/.config/sublime-text-3/Packages/User/ 
-```
-
-Below are the destination folders for windows and linux os.
 
 ### For Windows
 ```
-AppData\Roaming\Sublime Text 3\Packages\User
+cp -rv ./dotfiles/sublime-text/* AppData\Roaming\Sublime Text 3\Packages\User
 ```
 
 ### For Linux
 ```
-~/.config/sublime-text-3/Packages/User
+cp -rv ./dotfiles/sublime-text/* ~/.config/sublime-text-3/Packages/User
 ```
 
 ### For Mac
 ```
-~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+cp -rv ./dotfiles/sublime-text/* ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 ```
 
 This also contains all the settings necessary for sublime editor
