@@ -1,6 +1,6 @@
 cd ~
 sudo apt update
-sudo apt install vim curl git pip nodejs npm
+sudo apt install vim curl git pip nodejs npm xclip
 
 # Sublime Text 3
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -18,8 +18,20 @@ rm -rf dotfiles
 sudo npm i -g eslint
 sudo npm install htmllint-cli
 
+
+# Git settings
+# ===============
+
+# make vim as default editor
+git config --global core.editor "vim"
+
+# generate new ssh key
+# ssh-keygen -t ed25519 -C "kaizer1v@gmail.com"
+
+
 # bashrc settings
 # ===============
+
 # change the \w to \W in the ~/.bashrc file -> will shorten the path to show only 
 #   current folder
 # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
