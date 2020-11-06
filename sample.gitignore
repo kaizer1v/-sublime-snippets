@@ -1,78 +1,158 @@
-# Ignore all files that generally ought not to be committed into the repo.
-# Never commit sensitive data.
-# Never commit useless files.
-# Try not to commit large files.
-
-# Filenames should NOT have spaces
-* *
-
-# Ignore byte-compiled / optimised / DLL files
+# Byte-compiled / optimized / DLL files
+__pycache__/
 *.py[cod]
+*$py.class
 
-# Ignore log files
-logs/
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
-# Ignore main data file -- it's too large
 
-# Ignore SQLite3 files. Gramex creates some automatically
-*.sqlite3
-*.sqlite3-journal
+# C extensions
+*.so
 
-# Cache folders created by Gramex
-.cache/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Old vis.py used to produce xhtml output. Ignore these
-*.xhtml
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-# Data files. Try not to commit data into the repo
-*.csv
-*.dat
-*.mdb
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Zip files that aren't read by Pandas
-*.7z
-*.zip
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
 
-# Documents
-*.doc*
-*.pdf
-*.ppt*
-*.xls*
+# Translations
+*.mo
+*.pot
 
-# Avoid media files
-*.avi
-*.mp*
-*.wmv
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 
-# Backup files
-~$*
-*~
-*.bak*
+# Flask stuff:
+instance/
+.webassets-cache
 
-# Lock Files
-*.lock
+# Scrapy stuff:
+.scrapy
 
-# Sublime-text workspaces, etc
-*.sublime-*
+# Sphinx documentation
+docs/_build/
 
-# IPython Notebook checkpoints
+# PyBuilder
+target/
+
+# Jupyter Notebook
 .ipynb_checkpoints
 
-# Typically bash.exe.stackdump on Cygwin
-*.stackdump
+# IPython
+profile_default/
+ipython_config.py
 
-# Ignore bower components and npm modules
-node_modules/
-bower_components/
+# pyenv
+.python-version
 
-# Windows shortcut files
-*.lnk
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
 
-# Windows / Mac OS junk files
-Desktop.ini
-$RECYCLE.BIN/
-*[Tt]humbs.db
-*.DS_Store
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
 
-# R history files
-.RHistory
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
